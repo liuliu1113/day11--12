@@ -1,0 +1,45 @@
+bnal_login_001:
+  username: "18518164383"
+  pwd: "123456"
+  expect: "wzy123"
+  success: True
+bnal_login_002:
+  username: " 18518164383 "
+  pwd: "123456"
+  expect: "wzy123"
+  success: True
+bnal_login_003:
+  username: "wzy123"
+  pwd: "123456"
+  expect: "wzy123"
+  success: True
+bnal_login_004:
+  username: " wzy123 "
+  pwd: "123456"
+  expect: "wzy123"
+  success: True
+bnal_login_007:
+  username: "18610453008"
+  pwd: "123456"
+  expect: "此用户不存在"
+  success: False
+bnal_login_008:
+  username: "186104530077"
+  pwd: "123456"
+  expect: "此用户不存在"
+  success: False
+bnal_login_009:
+  username: "18518164383"
+  pwd: "1234567"
+  expect: "登录密码错误"
+  success: False
+bnal_login_010:
+  username: "itheimaa"
+  pwd: "123456"
+  expect: "此用户不存在"
+  success: False
+bnal_login_011:
+  username: "wzy123"
+  pwd: "1234567"
+  expect: "登录密码错误"
+  success: False
